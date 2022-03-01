@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Syncopate&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>  
+    <header> 
+    <div class="layer1"></div>
+    <img src="/images/menu-btn.png" alt="" class="menu-btn">
+    <div class="logo">
+        <h1 class="web">web</h1>
+        <h1>flick</h1>
+    </div>
+    <div class="events">
+    </div>
+    
+    <nav class="navbar">
+        <div class="nav-links">  
+            <pre class="left">What you want 
+
+           numerous
+
+                movie genre</pre>
+            
+            <pre class="right">Enjoy it   
+
+         for free</pre>
+                    
+        </div>
+    </nav>
+    </header>
+
+<section class="firstscroll">
+    <h1 id="font-cr">Web</h1><h1>flick is</h1>
+    <p class="explain1">a service that allows you to watch<br> a variety of content, including<br> award-winning series, movies,<br> animations, and documentaries,<br> on thousands of devices that can<br> be connected to the Internet.</p>
+    <div class="container">
+        <div class="hexagon">
+            <div class="shape" id="opt-bg">
+                <img src="/images/img1.png">
+                    <div class="content"  id="opt1-cr">
+                        <div>
+                            <h2>La La Land</h2>
+                            <p><br>Emma Stone &<br>Ryan Gosling<br>⭐ 8.91</p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class="hexagon">
+            <div class="shape">
+                <img src="/images/img2.jpg">
+                    <div class="content"  id="opt2-cr">
+                        <div>
+                            <h2>Call Me by Your Name</h2>
+                            <p><br>Timothee Chalamet &<br>Armie Hammer<br>⭐ 9.13</p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class="hexagon">
+            <div class="shape">
+                <img src="/images/img3.jpg">
+                    <div class="content" id="opt3-cr">
+                        <div>
+                            <h2>The Fault in Our Stars</h2>
+                            <p><br>Shailene Woodley &<br>Ansel Elgort<br>⭐ 8.48</p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <img src="/images/dc.png" class="dc">
+    </div>
+    
+    <div class="container">
+        <div class="hexagon">
+            <div class="shape" id="opt-bg">
+                <img src="/images/img4.png">
+                    <div class="content"  id="opt4-cr">
+                        <div>
+                            <h2>Titanic</h2>
+                            <p><br>Leonardo DiCaprio &<br>Kate Elizabeth Winslet<br>⭐ 9.88</p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class="hexagon">
+            <div class="shape">
+                <img src="/images/img5.jpg">
+                    <div class="content"  id="opt5-cr">
+                        <div>
+                            <h2>About Time</h2>
+                            <p><br>Domhnall Gleeson &<br>Rachel Anne McAdams<br>⭐ 9.30</p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class="hexagon">
+            <div class="shape">
+                <img src="/images/img6.jpg">
+                    <div class="content" id="opt6-cr">
+                        <div>
+                            <h2>The Notebook</h2>
+                            <p><br>Ryan Gosling &<br>Rachel Anne McAdams<br>⭐ 9.48</p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        
+    </div>
+    </section>
+  
+    <div class="secondscroll">
+        <div class="layer2"></div>
+        <input type="radio" name="slide" id="slide01" checked>
+        <input type="radio" name="slide" id="slide02">
+        <input type="radio" name="slide" id="slide03">
+
+        <div class="slidewrap">
+            <ul class="slidelist">
+                <li>
+                    <a>
+                        <label for="slide03" class="left"></label>
+                        <img src="/images/slide1.PNG" id="slideopt">
+                        <label for="slide02" class="right"></label>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <label for="slide01" class="left"></label>
+                        <img src="/images/slide2.PNG" id="slideopt">
+                        <label for="slide03" class="right"></label>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <label for="slide02" class="left"></label>
+                        <img src="/images/slide3.PNG" id="slideopt">
+                        <label for="slide01" class="right"></label>
+                    </a>
+                </li>
+            </ul>    
+        </div>
+        <h2>Watch various movies <br>and series on <br>smartphones, tablets,<br> laptops, and TV.<br> There is no additional<br> charge at all.</h2>
+    </div>
+
+    <section class="footer">
+        <h3 id="font-cr2">Web</h3><h3>flick is</h3>
+        <pre>                    | phone 010 - xxxx - 5023 
+                            | email webflick@gmail.com
+                        © webflick  Corp</pre>
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('menu')
+        })
+    </script>
+</body>
+</html>

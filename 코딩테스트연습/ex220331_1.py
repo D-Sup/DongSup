@@ -1,3 +1,3 @@
 n = int(input())
 for i in range(n):
-    print('*'*(n-i)+' '*(i))
+    print('*'*(n-i)+'1'*(i))

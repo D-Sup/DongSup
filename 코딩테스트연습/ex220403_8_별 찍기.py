@@ -1,3 +1,4 @@
+# 백준 2446번
 T = int(input())
 
 for _ in range(T):

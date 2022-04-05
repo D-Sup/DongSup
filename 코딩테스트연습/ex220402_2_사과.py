@@ -1,3 +1,4 @@
+# 백준 10833번
 T = int(input())
 C, G = [], []
 for _ in range(T):  

@@ -1,3 +1,4 @@
+# 백준 5565번
 m,n=map(int,input().split())
 count=0
 for i in range(1,max(m,n)+1):

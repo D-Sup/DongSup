@@ -1,3 +1,4 @@
+# 백준 2442번
 N = int(input())
 a, b, c = [], [], []
 for _ in range(N):

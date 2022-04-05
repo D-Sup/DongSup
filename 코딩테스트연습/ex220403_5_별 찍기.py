@@ -1,3 +1,4 @@
+# 백준 2523번
 N = int(input())
 for l in range(N+1):
     print(' '*(N-l)+'*'*l)

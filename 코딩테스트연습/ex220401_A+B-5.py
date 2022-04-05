@@ -1,3 +1,4 @@
+# 백준 10952번
 n = int(input())
 s = []
 for _ in range(n):

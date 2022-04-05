@@ -1,3 +1,5 @@
+# 백준 5635번
+# https://foam-waiter-a0e.notion.site/7929c2d1040b43209474eb443a8a946c
 n = int(input())
 for _ in range(n):
     p = int(input())

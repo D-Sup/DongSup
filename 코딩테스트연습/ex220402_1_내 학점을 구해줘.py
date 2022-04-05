@@ -1,3 +1,4 @@
+# 백준 10984번
 s = []
 while 1:
     a, b = map(int,input().split())

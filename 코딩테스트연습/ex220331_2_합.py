@@ -1,9 +1,6 @@
 # 백준 8393번
 n = int(input())
-for i in range(n):
-    for j in range(n):
-        if i>j:
-            print(' ',end='')
-        else:
-            print('*',end='')
-    print()
+s = 0
+for i in range(1,n+1):
+    s+=i
+print(s)

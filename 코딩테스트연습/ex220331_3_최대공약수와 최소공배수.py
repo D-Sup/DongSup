@@ -1,7 +1,8 @@
 # 백준 2609번
-n = int(input())
-s = 0
-for i in range(1,n+1):
-    s+=i
-print(s)
-    
+m,n=map(int,input().split())
+count=0
+for i in range(1,max(m,n)+1):
+    if m%i==0 and n%i==0:
+        count=i
+print(count)
+print(m//count*n)

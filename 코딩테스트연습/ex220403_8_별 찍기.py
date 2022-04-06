@@ -1,13 +1,11 @@
 # 백준 2446번
-T = int(input())
-
-for _ in range(T):
-    s = int(input())
-    n = int(input())
-    price = s
+N = int(input())
+for i in range(0,N):
+    print(' '*i+'*'*((N-i)*2-1))
+for j in range(1,N):
+    print(' '*(N-j-1)+'*'*((j*2+1)))
     
-    for _ in range(n):
-        q, p = map(int, input().split())
-        price += q * p
-        
-    print(price)
+# for j in range(N-1,0,-1):
+#     print(' '*(j-1)+'*'*((N-j)*2+1))
+
+    

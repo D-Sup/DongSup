@@ -1,8 +1,10 @@
 # 백준 2443번
 N = int(input())
-for i in range(N+1):
-    print(' '*(N-i)+'*'*i,end='')
+for i in range(N):
     for j in range(N):
-        if i-1 > j:
+        if i > j:
+            print(' ',end='') 
+        else:
             print('*',end='')
-    print()
+    print('*'*((N-1)-i)+' '*i)
+print()

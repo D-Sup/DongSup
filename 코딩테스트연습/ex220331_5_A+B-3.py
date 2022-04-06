@@ -1,7 +1,9 @@
 # 백준 10950번
-s = int(input())
-for i in range(9):
-    n = int(input())
-    s-=n
-print(s)
+n = int(input())
+s = []
+for _ in range(n):
+    a, b = map(int,input().split())
+    s.append(a+b)
+for i in s:
+    print(i)
 

@@ -1,16 +1,11 @@
 # 백준 2522번
 N = int(input())
-for i in range(N+1):
-    print(' '*(N-i)+'*'*i,end='')
-    for j in range(N):
-        if i-1 > j:
-            print('*',end='')
-    print()
+for l in range(N+1):
+    print(' '*(N-l)+'*'*l)
 for i in range(N):
     for j in range(N):
         if i >= j:
-            print(' ',end='') 
+            print(' ',end='')
         else:
             print('*',end='')
-    print('*'*((N-2)-i)+' '*i)
-print()
+    print()

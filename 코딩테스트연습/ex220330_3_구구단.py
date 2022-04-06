@@ -1,4 +1,6 @@
 # 백준 2739번
-n = int(input())
-for i in range(n,0,-1):
-    print(i)
+x = int(input())
+for i in range(1,10) :
+    print(x, i, sep=' * ', end=' = ')
+    print(x*i)
+    #print(x, ' * ', i, ' = ', x*i)

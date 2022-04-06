@@ -1,12 +1,8 @@
 # 백준 10833번
-T = int(input())
-C, G = [], []
-for _ in range(T):  
-    N = int(input())
-    C = [0]*T
-    G = [0]*T
-    for _ in range(N):
-        a, b = map(float,input().split())
-        C.append(int(a)),G.append(b)
-    print(sum(C),sum(G)/float(N))
-print()
+N = int(input())
+a, b, c = [], [], []
+for _ in range(N):
+    x, y = map(int,input().split())
+    a.append(x),b.append(y)
+    c.append(b[-1] % a[-1])
+print(sum(c))

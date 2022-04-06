@@ -1,29 +1,13 @@
 # 백준 2445번
-T=int(input())
-q, p, h, v, f = [], [], [], [], []
-for _ in range(T):
-    S = int(input())
-    h.append(S)
-    N = int(input())
-    for _ in range(N):
-        a, b = map(int,input().split())
-        q.append(a),p.append(b)
-        v.append(q[-1]*p[-1])
-    f.append(sum(h)+sum(v))
-    h = [0] * T
-    q = [0] * N
-    p = [0] * N
-    v = [0] * N
-for i in range(T):
-    print(f[i])
+N = int(input())
+for i in range(1,N):
+    print('*'*i+' '*((N-i)*2)+'*'*i)
+for j in range(N,0,-1):
+    print('*'*j+' '*((N-j)*2)+'*'*j)
 
-
-# T = int(input())
-# for _ in range(T):
-#     s = int(input())
-#     n = int(input())
-#     price = s
-#     for _ in range(n):
-#         q, p = map(int, input().split())
-#         price += q * p
-#     print(price)
+# n = int(input())
+# for i in range(2*n-1):
+#     if i<n:
+#         print("*"*(i+1) + " "*(2*(n-i)-2) + "*"*(i+1))
+#     else:
+#         print("*"*(2*n-i-1) + " "*(2*i-2*n+2) + "*"*(2*n-i-1))

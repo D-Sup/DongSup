@@ -1,3 +1,4 @@
+# 백준 10871번
 import sys
 N, X = map(int,sys.stdin.readline().split())
 A = list(map(int,sys.stdin.readline().split()))

@@ -1,3 +1,4 @@
+# 백준 10569번
 import sys
 T = int(sys.stdin.readline())
 for _ in range(T):

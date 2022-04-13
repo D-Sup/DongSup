@@ -1,8 +1,14 @@
 # 백준 10991번
-N = int(input())
+import sys
+N = int(sys.stdin.readline())
+for i in range(1,N+1):
+    print(' '*(N-i),end='')
+    print('* '*(i))
+    
+# N = int(input())
 
-for i in range(1, N+1):
-    print(' '* (N-i), end = '')
-    for j in range(i): 
-        print('*', end = ' ')
-    print()
+# for i in range(1, N+1):
+#     print(' '* (N-i), end = '')
+#     for j in range(i): 
+#         print('*', end = ' ')
+#     print()

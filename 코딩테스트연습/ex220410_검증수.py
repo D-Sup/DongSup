@@ -7,7 +7,6 @@ for i in range(len(N)):
     H += S
 print(H%10)
 
-
 # N = list(map(int, input().split()))
 # R = 0
 # for i in N:

@@ -9,4 +9,4 @@ for i in range(N):
         H += S
     else:
         S = 0
-print(H)
+print(H)    

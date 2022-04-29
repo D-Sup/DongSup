@@ -1,4 +1,4 @@
-# น้มุ 17249น๘
+# ๋ฐฑ์ค€ 17249๋ฒ
 import sys
 sys.stdin = open("input.txt", 'r')
 

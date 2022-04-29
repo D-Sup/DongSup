@@ -1,4 +1,4 @@
-# ¹éÁØ 11320¹ø
+# ï¿½ï¿½ï¿½ï¿½ 11320ï¿½ï¿½
 t = int(input())
 for i in range(t):
     a, b = map(int, input().split())

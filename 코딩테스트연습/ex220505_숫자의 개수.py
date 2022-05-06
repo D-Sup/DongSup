@@ -1,4 +1,4 @@
-# 백준 2577번 
+# 백준 2577번
 import sys
 N = []
 V, r = 1, 0
@@ -13,4 +13,4 @@ for p in range(10):
         if V[q] == p:
             r+=1
     print(r)
-    r=0
+    r=0 

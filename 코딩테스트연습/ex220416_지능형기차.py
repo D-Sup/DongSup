@@ -2,7 +2,7 @@
 import sys
 S = 0
 L = []
-for i in range(10):
+for i in range(4):
     N, M = map(int,sys.stdin.readline().split())
     S -= N
     S += M

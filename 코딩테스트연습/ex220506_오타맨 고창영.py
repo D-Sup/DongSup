@@ -15,4 +15,4 @@ for _ in range(int(input())):
 #         if i == int(N)-1:
 #             continue        
 #         result += M[i]
-#     print(result)s
+#     print(result)

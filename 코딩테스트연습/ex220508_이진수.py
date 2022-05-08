@@ -10,3 +10,12 @@ while 0 < N:
 for i in range(len(M)):
     if M[i] == 1:
         print(i, end=' ')
+print(M)
+
+# T = int(input())
+
+# for _ in range(T):
+#     n = bin(int(input()))[2:]
+#     for i in range(len(n)):
+#         if n[-i - 1] == '1':
+#             print(i, end=' ')

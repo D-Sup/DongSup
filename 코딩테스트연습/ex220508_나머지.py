@@ -9,3 +9,4 @@ for _ in range(10):
 for k in range(10):
     M.append(N[k] % 42)
 print(len(set(M)))
+# https://blockdmask.tistory.com/451

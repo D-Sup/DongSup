@@ -8,4 +8,4 @@ for _ in range(3):
 for _ in range(2):
     p = int(input())
     M.append(p)
-print(min(N)+min(M))
+print(min(N)+min(M)-50)

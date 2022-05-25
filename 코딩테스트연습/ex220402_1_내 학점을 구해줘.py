@@ -1,15 +1,19 @@
-# 백준 10984번
 T = int(input())
-C, G = [], []
-for _ in range(T):  
-    N = int(input())
-    C = [0]*T
-    G = [0]*T
-    for _ in range(N):
-        a, b = map(float,input().split())
-        C.append(int(a)),G.append(b)
-    print(sum(C),sum(G)/float(N))
-print()
+for _ in range(T) :
+  N = int(input())
+  C = G = 0
+  for i in range(N) :
+    c, g = map(str, input().split())
+    C += int(c)
+    G += float(c) * float(g)
 
-    
-    
+  result = round(G / C, 1)
+  print(C, result)
+
+# for _ in range(int(input())):
+#     C = G = 0
+#     for i in range(int(input())):
+#         c, g = map(float, input().split())
+#         C += c
+#         G += c*g
+#     print("%d %.1f" %(C, G/C))

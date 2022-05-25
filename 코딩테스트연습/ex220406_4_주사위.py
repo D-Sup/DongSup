@@ -6,4 +6,4 @@ for _ in range(T):
     a, b = map(int,sys.stdin.readline().split())
     s.append(a+b)
 for i in range(T):
-    print('case',i,':',s[int(i)-1])
+    print('Case ',i+1,': ',s[i],sep='')

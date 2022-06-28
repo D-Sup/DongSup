@@ -1,4 +1,5 @@
 # baekjoon 1929
+
 L = []
 a, b = map(int,input().split())
 for i in range(a,b):

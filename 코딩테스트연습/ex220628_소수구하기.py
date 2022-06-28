@@ -24,7 +24,7 @@ print(*L,sep='\n')
 # x, y = map(int, input().split())
 # for i in range(x, y+1):
 #     print('#',i)
-#     if i == 1: #1은 소수가 아뉘지!
+#     if i == 1: 
 #         continue
 #     for j in range(2, int(i** 0.5)+1 ):
 #         print(j)

@@ -19,3 +19,4 @@ print(solution('01075675023'))
 # def solution(ans):
 #     return "*"*len(ans[:-4])+ans[-4:]
 # print(solution('01075675023'))
+# programmers 12948

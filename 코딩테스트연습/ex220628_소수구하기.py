@@ -1,5 +1,4 @@
 # baekjoon 1929
-
 L = []
 a, b = map(int,input().split())
 for i in range(a,b):
@@ -24,15 +23,13 @@ print(*L,sep='\n')
 
 # x, y = map(int, input().split())
 # for i in range(x, y+1):
-#     print('#',i)
 #     if i == 1: 
 #         continue
 #     for j in range(2, int(i** 0.5)+1 ):
-#         print(j)
 #         if i%j==0:
 #             break
 #     else:
-#         print(i*'**************************')
+#         print(i)
 
 
 # m, n = map(int, input().split())

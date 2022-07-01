@@ -2,24 +2,24 @@
 import sys
 
 prime_list = [False, False] + [True]*10002
-#ÀÔ·Â°ªÀº 10000±îÁö ÁÖ¾îÁö¸ç 0, 1¹ø ÀÎµ¦½º´Â FalseÀÎ ¼Ò¼ö¸®½ºÆ®¸¦ ¸¸µç´Ù. 
+#ìž…ë ¥ê°’ì€ 10000ê¹Œì§€ ì£¼ì–´ì§€ë©° 0, 1ë²ˆ ì¸ë±ìŠ¤ëŠ” Falseì¸ ì†Œìˆ˜ë¦¬ìŠ¤íŠ¸ë¥¼ ë§Œë“ ë‹¤. 
 
 for i in range(2, 10002):
     if prime_list[i]:
         for j in range(2*i, 10002, i):
-        #¼Ò¼ö¸¦ ±¸ÇÏ±â À§ÇØ ¹Ýº¹¹®À» µ¹¸°´Ù. 10002º¸´Ù ÀÛÁö¸¸ 2ÀÇ ¹è¼öµéÀº ¼Ò¼ö°¡ ¾Æ´Ï´Ï False°ªÀ» ´ã´Â´Ù. 
+        #ì†Œìˆ˜ë¥¼ êµ¬í•˜ê¸° ìœ„í•´ ë°˜ë³µë¬¸ì„ ëŒë¦°ë‹¤. 10002ë³´ë‹¤ ìž‘ì§€ë§Œ 2ì˜ ë°°ìˆ˜ë“¤ì€ ì†Œìˆ˜ê°€ ì•„ë‹ˆë‹ˆ Falseê°’ì„ ë‹´ëŠ”ë‹¤. 
             prime_list[j] = False
 
-T = int(sys.stdin.readline()) #ÀÔ·Â¹Þ´Â Å×½ºÆ® ÄÉÀÌ½ºÀÇ °³¼ö T
+T = int(sys.stdin.readline()) #ìž…ë ¥ë°›ëŠ” í…ŒìŠ¤íŠ¸ ì¼€ì´ìŠ¤ì˜ ê°œìˆ˜ T
 
 for i in range(T):
-    n = int(sys.stdin.readline()) #ÀÔ·Â¹Þ´Â Â¦¼ö n
-    a = n // 2 #ÀÔ·Â¹ÞÀº Â¦¼öÀÇ Áß°£°ªÀ» ¸¸µé¾î Å½»öÇÑ´Ù.
+    n = int(sys.stdin.readline()) #ìž…ë ¥ë°›ëŠ” ì§ìˆ˜ n
+    a = n // 2 #ìž…ë ¥ë°›ì€ ì§ìˆ˜ì˜ ì¤‘ê°„ê°’ì„ ë§Œë“¤ì–´ íƒìƒ‰í•œë‹¤.
     print(a)
     b = a
     while a > 0:
         if prime_list[a] and prime_list[b]:
-        #a¿Í b°¡ ¼Ò¼öÀÏ ¶§ True¸¦ ¹ÝÈ¯ÇÏ¹Ç·Î a, b¸¦ Ãâ·ÂÇÑ´Ù.
+        #aì™€ bê°€ ì†Œìˆ˜ì¼ ë•Œ Trueë¥¼ ë°˜í™˜í•˜ë¯€ë¡œ a, bë¥¼ ì¶œë ¥í•œë‹¤.
             print(a, b)
             break
         else:
@@ -48,3 +48,29 @@ for i in range(T):
 #             B += 1
 
 # Goldbach()
+
+# import sys
+
+# def prime(n):
+#     prime_num = [True] * n
+#     for i in range(2, int(n**0.5) + 1):
+#         if prime_num[i] is True:
+#             for j in range(2 * i, n, i):
+#                 prime_num[j] = False
+#     return [i for i in range(2, n) if prime_num[i] is True]
+
+
+# p = prime(10001)  
+# n = int(sys.stdin.readline())
+# for i in range(n):
+#     m = int(sys.stdin.readline())
+#     diff = 10001
+#     a = 0
+#     b = 0
+#     for i in range(len(p)):
+#         if p[i] >= m / 2:  
+#             if m - p[i] in p:
+#                 a = p[i]
+#                 b = m - p[i]
+#                 break
+#     print(b, a)

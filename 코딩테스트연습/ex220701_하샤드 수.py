@@ -1,8 +1,6 @@
 # programmers 12947
 def solution(n):
     return n%sum(list(map(int, str(n)))) == 0
-    #     return True # 생략가능 
-    # return False # 생략가능
 m = [10,12,11,13]
 for i in m:  
     print(solution(i))
@@ -35,4 +33,12 @@ for i in m:
 #     for i in range(len(st)):
 #         a += int(st[i])
 #     return True if n%a == 0 else False
+# print(solution(18))
+
+
+# def solution(n):
+#     s=sum([int(i) for i in str(n)])
+#     if n%s == 0:
+#         return True
+#     return False
 # print(solution(18))

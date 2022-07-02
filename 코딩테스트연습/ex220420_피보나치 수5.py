@@ -6,3 +6,12 @@ def fibonacci(num):
 
 n=int(input())
 print(fibonacci(n))
+
+# a = 0
+# b = 1
+# c = 1
+# for _ in range(int(input())):
+#     a = b
+#     b = c
+#     c = a + b  
+# print(a)

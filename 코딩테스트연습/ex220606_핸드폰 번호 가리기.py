@@ -5,7 +5,6 @@
 #     print(*ans)
 # solution(list(input()))
 
-
 # def solution(ans):
 #     for i in range(len(ans)-4):
 #         ans=ans.replace(ans[i],'*',1)

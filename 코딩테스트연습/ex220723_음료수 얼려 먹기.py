@@ -35,3 +35,4 @@ for i in range(n):
             result += 1
 
 print(result)  # 정답 출력
+print(graph)

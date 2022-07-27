@@ -10,11 +10,9 @@ def solution(s):
     return L
 print(*solution("-1234"),sep='')
 
-
 # def solution(s):
 #     return s
 # print("-1234")
-
 
 # def strToInt(str):
 #     result = 0

@@ -9,4 +9,4 @@ print(solution(int(input())))
 
 # def solution(n):
 #     return ("수박"*n)[:n]
-# print(solution(int(input())))
+# print(solution(int(input()))) 

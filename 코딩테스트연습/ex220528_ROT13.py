@@ -11,13 +11,25 @@ for i in range(len(N)):
 M = "".join(M)
 print(M.replace("-"," "))     
 
-# s = input()
-# res = ''
-# for c in s:
-#     if 'a' <= c <= 'z':
-#         res += chr((ord(c)+13) if c <= 'm' else ord(c)-13)
-#     elif 'A' <= c <= 'Z':
-#         res += chr((ord(c)+13) if c <= 'M' else ord(c)-13)
+# N = input()
+# result = ''
+# for i in N:
+#     if 'a' <= i <= 'z':
+#         result += chr(ord(i)+13) if i < 'm' else chr(ord(i)-13)
+#     elif 'A' <= i <= 'Z':
+#         result += chr(ord(i)+13) if i < 'M' else chr(ord(i)-13)
 #     else:
-#         res += c
-# print(res)
+#         result += i
+# print(result)  
+
+# new method
+# s = [ord(x) for x in input('')]
+# r = ''
+# for ss in s:
+#     if ss > 96 and ss < 123:
+#         r += chr(ss + 13) if ss < 110 else chr(ss - 13)
+#     elif ss > 64 and ss < 91:
+#         r += chr(ss + 13) if ss < 78 else chr(ss - 13)
+#     else:
+#         r += chr(ss)
+# print(r)

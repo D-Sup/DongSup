@@ -31,3 +31,10 @@ elif len(set(M)) == 1:
 #   print("?")
 # else:
 #   print(word_list[(cnt.index(max(cnt)))])
+
+# new method
+# N = input().upper()
+# L = [0 for _ in range(91)]
+# for j in N:
+#     L[ord(j)] += 1
+# print('?' if L.count(max(L)) > 1 else chr(L.index(max(L))))

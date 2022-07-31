@@ -8,3 +8,10 @@ def add():
             return M
 add()
 print(*M,sep='\n')
+
+# new method
+# while 1:
+#     N = input()
+#     if N == 'END':
+#         break
+#     print(N[::-1])

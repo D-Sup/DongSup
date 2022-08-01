@@ -1,3 +1,4 @@
+# baekjoon 2839
 N = int(input())
 result = 0
 while N >= 0:

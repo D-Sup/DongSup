@@ -10,3 +10,13 @@ for j in M[::-1]:
     else:
         print(R)
         break
+    
+# new method
+def f(x):
+    return x*f(x-1) if x else 1
+N = str(f(int(input())))[::-1]
+print(N)
+for NN in N:
+    if int(NN):
+        print(N.index(NN))
+        break

@@ -12,3 +12,8 @@ def factorial(i):
         return True
     return i*factorial(i-1)
 print(factorial(3))
+
+# new method
+def f(x):
+    return (x * f(x-1)) if x else 1
+print(f(3))

@@ -9,3 +9,7 @@ for i in M:
     if len(M) == N:
         H += int(i)
 print(H)
+
+# new method
+input()
+print(eval('-'.join(input())))

@@ -11,3 +11,12 @@ for i in range((len(N))):
     M = " ".join(map(str,M))
     S += f'Distances: {M}\n'
 print(S)
+
+# new method
+# for _ in ' '*int(input()):
+#     x, y = input().split()
+#     z = []
+#     for i in range(len(x)):
+#         t = ord(y[i]) - ord(x[i])
+#         z += [str(t+26)] if t < 0 else [str(t)]
+#     print('Distances: ' + ' '.join(z))

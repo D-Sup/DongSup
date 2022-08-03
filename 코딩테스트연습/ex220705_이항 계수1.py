@@ -1,4 +1,4 @@
-# beakjoon 11050
+# baekjoon 11050
 N,K = map(int,input().split())
 
 def solution(V):

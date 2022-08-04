@@ -37,3 +37,23 @@ print(C)
 #     if(cnt == 1):
 #         resCnt += 1
 # print(resCnt)
+
+# new method
+# def s(x):
+#     if x == 1:
+#         return 0
+#     for i in range(2, x):
+#         if not (x % i):
+#             return 0
+#     return 1
+
+
+# input()
+# n = [int(x) for x in input().split()]
+# cnt = 0
+
+# for nn in n:
+#     if s(nn):
+#         cnt += 1
+
+# print(cnt)

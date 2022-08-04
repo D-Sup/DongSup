@@ -32,6 +32,7 @@ print(*L,sep='\n')
 #         print(i)
 
 
+# new method
 # m, n = map(int, input().split())
 # def prime_number(x) :
 #   if x == 1 :

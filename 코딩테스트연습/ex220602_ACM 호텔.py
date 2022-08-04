@@ -34,3 +34,8 @@ for _ in range(int(input())):
 #     if a==0 : a=H;b-=1
 #
 #     print(a*100+b)
+
+# new method
+# for _ in ' '*int(input()):
+#     h, _, n = map(int, input().split())
+#     print('%d%02d' % ((n-1) % h + 1, (n-1)//h + 1))

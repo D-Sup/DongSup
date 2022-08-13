@@ -1,6 +1,6 @@
 from datetime import datetime, timedelta
 import random
-yesterday = datetime.today() - timedelta(3)
+yesterday = datetime.today() - timedelta(2)
 H = random.randrange(20,24)
 M = random.randrange(0,60)
 S = random.randrange(0,60)
